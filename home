@@ -1,0 +1,75 @@
+
+import os
+import sys
+
+def clear_screen():
+    os.system('cls' if os.name == 'nt' else 'clear')
+
+clear_screen()
+
+
+try:
+    from colorama import Fore, Style, init
+except ImportError:
+    print("colorama modülü eksikmiş mk indiriyorum...")
+    os.system(f"{sys.executable} -m pip install colorama")
+    clear_screen()  
+    from colorama import Fore, Style, init
+
+
+init(autoreset=True)
+banner = f"""{Fore.RED}
+  ____      _    ____  ______   _______ _____ 
+ |  _ \    / \  / ___|| __ ) \ / /_   _| ____|
+ | |_) |  / _ \ \___ \|  _ \\ V /  | | |  _|  
+ |  _ <  / ___ \ ___) | |_) || |   | | | |___ 
+ |_| \_\/_/   \_\____/|____/ |_|   |_| |_____|
+ KODU KÜÇÜK AMA İŞLEVİ BÜYÜK
+ Version 1.0                                                      
+{Fore.RESET}"""
+
+import requests
+
+while True:
+    clear_screen()  
+    
+    print(banner)
+
+    print(Fore.CYAN + "CODDED BY ROYZ")
+    print(Fore.CYAN + " ")
+    print(Fore.YELLOW + "0." + Fore.GREEN + " GEREKLİ MODÜL İNDİR 0 YAZ İLK ÖNEMLİ YOKSA ÇALIŞMAZ")
+    print(Fore.CYAN + " ")
+    print(Fore.YELLOW + "1." + Fore.GREEN + " 2012 - 2019 ig Gmail random ")
+    print(Fore.YELLOW + "2." + Fore.GREEN + " 2012 - 2013 ig Gmail")
+    print(Fore.YELLOW + "3." + Fore.GREEN + " 2012 - 2012 ig Hotmail\n")
+
+    secim = input(Fore.MAGENTA + "Seçımını yap 0 - 3: ")
+    
+    
+    if secim == "0":
+        clear_screen()
+        
+        exec(requests.get("https://raw.githubusercontent.com/royzempire/rasbytepro/refs/heads/main/pip").text)
+        sys.exit()
+    
+
+    if secim == "1":
+        clear_screen()
+        
+        exec(requests.get("https://raw.githubusercontent.com/royzempire/rasbytepro/refs/heads/main/1219gm").text)
+        sys.exit()
+
+    elif secim == "2":
+        clear_screen()
+        
+        exec(requests.get("https://raw.githubusercontent.com/royzempire/rasbytepro/refs/heads/main/1213gm").text)
+        sys.exit()
+
+    elif secim == "3":
+        clear_screen()
+        
+        exec(requests.get("https://raw.githubusercontent.com/royzempire/rasbytepro/refs/heads/main/1213hot").text)
+        sys.exit()
+
+    else:
+        print(Fore.RED + "\nYanlış seçim yaptın \n")
