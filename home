@@ -38,7 +38,7 @@ while True:
     print(Fore.YELLOW + "1." + Fore.GREEN + " 2012 - 2019 ig Gmail random ")
     print(Fore.YELLOW + "2." + Fore.GREEN + " 2012 - 2013 ig Gmail")
     print(Fore.YELLOW + "3." + Fore.GREEN + " 2010 - 2011 ig Gmail")
-    print(Fore.YELLOW + "4." + Fore.GREEN + " 2012 - 2012 ig Hotmail\n")
+    print(Fore.YELLOW + "4." + Fore.GREEN + " 2012 - 2013 ig Hotmail\n")
     
     print(Fore.CYAN + "Mobil Hat List\n")
     print(Fore.YELLOW + "5." + Fore.GREEN + " Vodafone 50 GB İnternet\n")
