@@ -23,9 +23,8 @@ banner = Fore.RED + r"""
  | |_) |  / _ \ \___ \|  _ \\ V /  | | |  _|  
  |  _ <  / ___ \ ___) | |_) || |   | | | |___ 
  |_| \_\/_/   \_\____/|____/ |_|   |_| |_____|
- KODU KÜÇÜK AMA İŞLEVİ BÜYÜK
  Version 1.0
- By 0xroyz
+ By royzxrd
 """ + Fore.RESET
 
 while True:
